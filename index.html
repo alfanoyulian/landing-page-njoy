@@ -1,758 +1,957 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NJOY — Jasa Desain Grafis Profesional</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NJOY — Jasa Desain Grafis Profesional</title>
 
-<!-- Google Font: Plus Jakarta Sans -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Google Font: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
-<!-- Bootstrap 5.3 -->
-<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!-- Bootstrap 5.3 -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
-<!-- Bootstrap Icons -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 
-<!-- 1. NAVBAR -->
+  <!-- 1. NAVBAR -->
 
-<nav class="navbar navbar-expand-lg navbar-custom fixed-top py-3">
-  <div class="container d-flex align-items-center justify-content-between">
+  <nav class="navbar navbar-expand-lg navbar-custom sticky-top py-3">
+    <div class="container d-flex align-items-center justify-content-between">
 
-    <a class="navbar-brand brand-logo" href="#hero">
-      <span class="brand-mark">N</span>JOY
-    </a>
+      <a class="navbar-brand brand-logo" href="#hero">
+        <span class="brand-mark">N</span>JOY
+      </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse flex-grow-0" id="mainNav">
-      <ul class="navbar-nav mx-auto gap-lg-4 text-center py-3 py-lg-0">
-        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
-        <li class="nav-item"><a class="nav-link" href="#harga">Harga</a></li>
-        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
-      </ul>
-      <div class="d-lg-none text-center pb-3">
-        <a href="#cta-penutup" class="btn btn-cta-primary w-100">Konsultasi Gratis</a>
+      <div class="collapse navbar-collapse flex-grow-0" id="mainNav">
+        <ul class="navbar-nav mx-auto gap-lg-4 text-center py-3 py-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#harga">Harga</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+        </ul>
+        <div class="d-lg-none text-center pb-3">
+          <a href="#cta-penutup" class="btn btn-cta-primary w-100">Konsultasi Gratis</a>
+        </div>
+      </div>
+
+      <a href="#cta-penutup" class="btn btn-cta-primary d-none d-lg-inline-block">Konsultasi Gratis</a>
+
+    </div>
+  </nav>
+
+
+  <!-- 2. HERO SECTION -->
+
+  <header id="hero"
+    class="hero-section d-flex align-items-center justify-content-center min-vh-100 position-relative overflow-hidden">
+    <img src="assets/img/hero.png" alt="Deskripsi gambar hero"
+      class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-1">
+    <div class="container position-relative z-2">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center d-flex flex-column align-items-center">
+
+          <span class="hero-badge hero-animate d-inline-flex align-items-center gap-2 rounded-pill px-3 py-2 mb-4">
+            <i class="bi bi-stars"></i> Solusi Desain Kreatif untuk Bisnis
+          </span>
+
+          <h1 class="hero-title hero-animate mb-4">
+            Tingkatkan Citra Brand Anda Dengan Desain Grafis yang Profesional
+          </h1>
+
+          <p class="hero-desc hero-animate mb-5 col-lg-9 col-sm-11">
+            Kami membantu UMKM, brand lokal, konten kreator, dan startup membangun identitas visual yang kuat, modern,
+            dan mudah diingat melalui logo, branding, hingga desain media sosial.
+          </p>
+
+          <div class="hero-cta-group hero-animate d-flex flex-column flex-sm-row gap-3 mb-5">
+            <a href="#cta-penutup" class="btn btn-cta-primary btn-lg px-4">Konsultasi Gratis</a>
+            <a href="#portfolio" class="btn btn-cta-secondary btn-lg px-4">Lihat Portfolio <i
+                class="bi bi-arrow-right ms-1"></i></a>
+          </div>
+
+          <div class="hero-social hero-animate">
+            <p class="social-proof-text mb-3">Telah dipercaya oleh berbagai bisnis dan UMKM</p>
+            <div class="d-flex flex-wrap justify-content-center align-items-center gap-4 gap-md-5 client-logos">
+              <span class="client-logo">PT SMM</span>
+              <span class="client-logo">PT SMM</span>
+              <span class="client-logo">ALFANO SMM</span>
+              <span class="client-logo">OPAN SMM</span>
+              <span class="client-logo">AMAL SMM</span>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
-
-    <a href="#cta-penutup" class="btn btn-cta-primary d-none d-lg-inline-block">Konsultasi Gratis</a>
-
-  </div>
-</nav>
+  </header>
 
 
-<!-- 2. HERO SECTION -->
+  <!-- 3. STATISTIK SINGKAT -->
 
-<header id="hero" class="hero-section d-flex align-items-center justify-content-center min-vh-100 position-relative overflow-hidden">
-<img src="assets/img/hero.png" alt="Deskripsi gambar hero" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-1">
-  <div class="container position-relative z-2">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center d-flex flex-column align-items-center">
-
-        <span class="hero-badge hero-animate d-inline-flex align-items-center gap-2 rounded-pill px-3 py-2 mb-4">
-          <i class="bi bi-stars"></i> Solusi Desain Kreatif untuk Bisnis
-        </span>
-
-        <h1 class="hero-title hero-animate mb-4">
-          Tingkatkan Citra Brand Anda Dengan Desain Grafis yang Profesional
-        </h1>
-
-        <p class="hero-desc hero-animate mb-5 col-lg-9 col-sm-11">
-          Kami membantu UMKM, brand lokal, konten kreator, dan startup membangun identitas visual yang kuat, modern, dan mudah diingat melalui logo, branding, hingga desain media sosial.
-        </p>
-
-        <div class="hero-cta-group hero-animate d-flex flex-column flex-sm-row gap-3 mb-5">
-          <a href="#cta-penutup" class="btn btn-cta-primary btn-lg px-4">Konsultasi Gratis</a>
-          <a href="#portfolio" class="btn btn-cta-secondary btn-lg px-4">Lihat Portfolio <i class="bi bi-arrow-right ms-1"></i></a>
-        </div>
-
-        <div class="hero-social hero-animate">
-          <p class="social-proof-text mb-3">Telah dipercaya oleh berbagai bisnis dan UMKM</p>
-          <div class="d-flex flex-wrap justify-content-center align-items-center gap-4 gap-md-5 client-logos">
-            <span class="client-logo">PT SMM</span>
-            <span class="client-logo">PT SMM</span>
-            <span class="client-logo">ALFANO SMM</span>
-            <span class="client-logo">OPAN SMM</span>
-            <span class="client-logo">AMAL SMM</span>
+  <section id="statistik" class="stats-section py-5">
+    <div class="container">
+      <div class="row text-center gy-4">
+        <div class="col-12 col-md-4">
+          <div class="stat-item">
+            <h2 class="stat-number mb-1">100<span class="stat-plus">+</span></h2>
+            <p class="stat-label mb-0">Klien Mempercayakan Kami</p>
           </div>
         </div>
-
-      </div>
-    </div>
-  </div>
-</header>
-
-
-<!-- 3. STATISTIK SINGKAT -->
-
-<section id="statistik" class="stats-section py-5">
-  <div class="container">
-    <div class="row text-center gy-4">
-      <div class="col-12 col-md-4">
-        <div class="stat-item">
-          <h2 class="stat-number mb-1">100<span class="stat-plus">+</span></h2>
-          <p class="stat-label mb-0">Klien Mempercayakan Kami</p>
-        </div>
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="stat-item">
-          <h2 class="stat-number mb-1">250<span class="stat-plus">+</span></h2>
-          <p class="stat-label mb-0">Proyek Selesai</p>
-        </div>
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="stat-item">
-          <h2 class="stat-number mb-1">98<span class="stat-plus">%</span></h2>
-          <p class="stat-label mb-0">Klien Puas dengan Hasil</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- 4. PAIN POINTS — Masalah yang sering dihadapi calon klien -->
-
-<section class="pain-section py-5 py-lg-6">
-  <div class="container">
-    <div class="text-center mb-5">
-      <span class="section-eyebrow">Tantangan Umum</span>
-      <h2 class="section-title mt-2">Sering Terkendala Hal Berikut?</h2>
-      <p class="section-subtitle col-lg-7 mx-auto">
-        Banyak bisnis kesulitan mengembangkan tampilan visual karena beberapa hal ini.
-      </p>
-    </div>
-    <div class="row g-4">
-      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-        <div class="card pain-card h-100 border-0 p-4">
-          <div class="icon-box icon-box-secondary-soft d-flex align-items-center justify-content-center rounded-3 mb-3">
-            <i class="bi bi-person-x"></i>
+        <div class="col-12 col-md-4">
+          <div class="stat-item">
+            <h2 class="stat-number mb-1">250<span class="stat-plus">+</span></h2>
+            <p class="stat-label mb-0">Proyek Selesai</p>
           </div>
-          <h3 class="pain-title mb-2">Tidak Punya Tim Desain</h3>
-          <p class="pain-desc mb-0">Merekrut desainer sendiri butuh waktu, biaya, dan proses seleksi yang panjang.</p>
         </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-        <div class="card pain-card h-100 border-0 p-4">
-          <div class="icon-box icon-box-secondary-soft d-flex align-items-center justify-content-center rounded-3 mb-3">
-            <i class="bi bi-clock-history"></i>
+        <div class="col-12 col-md-4">
+          <div class="stat-item">
+            <h2 class="stat-number mb-1">98<span class="stat-plus">%</span></h2>
+            <p class="stat-label mb-0">Klien Puas dengan Hasil</p>
           </div>
-          <h3 class="pain-title mb-2">Desain Selesai Lama</h3>
-          <p class="pain-desc mb-0">Tanpa partner yang tepat, proses desain sering memakan waktu lebih lama dari target.</p>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-        <div class="card pain-card h-100 border-0 p-4">
-          <div class="icon-box icon-box-secondary-soft d-flex align-items-center justify-content-center rounded-3 mb-3">
-            <i class="bi bi-cash-stack"></i>
-          </div>
-          <h3 class="pain-title mb-2">Biaya Operasional Tinggi</h3>
-          <p class="pain-desc mb-0">Membentuk tim desain in-house memerlukan biaya gaji dan operasional yang besar.</p>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-        <div class="card pain-card h-100 border-0 p-4">
-          <div class="icon-box icon-box-secondary-soft d-flex align-items-center justify-content-center rounded-3 mb-3">
-            <i class="bi bi-palette2"></i>
-          </div>
-          <h3 class="pain-title mb-2">Gaya Visual Tidak Konsisten</h3>
-          <p class="pain-desc mb-0">Tanpa panduan brand yang jelas, tampilan visual bisnis jadi tidak konsisten dan kurang dipercaya.</p>
         </div>
       </div>
     </div>
-    <div class="text-center mt-5">
-      <p class="mb-3 fw-semibold">Konsultasikan kebutuhan desainmu bersama tim kami, <a href="#kontak">Konsultrasi Gratis</a></p>
-    </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- 5. VALUE PROPOSITION / TENTANG -->
+  <!-- 4. PAIN POINTS — Masalah yang sering dihadapi calon klien -->
 
-<section id="tentang" class="value-section py-5 py-lg-6">
-  <div class="container">
-    <div class="row justify-content-center text-center mb-5">
-      <div class="col-lg-8">
-        <span class="section-eyebrow">Tentang Kami</span>
-        <h2 class="section-title mt-2 mb-3">Saatnya Permudah Segala Kebutuhan Desainmu</h2>
-        <p class="section-subtitle mb-0">
-          NJOUY adalah studio desain grafis yang membantu UMKM, brand lokal, konten kreator, pebisnis online, dan startup membangun identitas visual yang kuat — tanpa perlu merekrut tim desain sendiri.
+  <section class="pain-section py-5 py-lg-6">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-eyebrow">Tantangan Umum</span>
+        <h2 class="section-title mt-2">Sering Terkendala Hal Berikut?</h2>
+        <p class="section-subtitle col-lg-7 mx-auto">
+          Banyak bisnis kesulitan mengembangkan tampilan visual karena beberapa hal ini.
         </p>
       </div>
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="card pain-card h-100 border-0 p-4">
+            <div
+              class="icon-box icon-box-secondary-soft d-flex align-items-center justify-content-center rounded-3 mb-3">
+              <i class="bi bi-person-x"></i>
+            </div>
+            <h3 class="pain-title mb-2">Tidak Punya Tim Desain</h3>
+            <p class="pain-desc mb-0">Merekrut desainer sendiri butuh waktu, biaya, dan proses seleksi yang panjang.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="card pain-card h-100 border-0 p-4">
+            <div
+              class="icon-box icon-box-secondary-soft d-flex align-items-center justify-content-center rounded-3 mb-3">
+              <i class="bi bi-clock-history"></i>
+            </div>
+            <h3 class="pain-title mb-2">Desain Selesai Lama</h3>
+            <p class="pain-desc mb-0">Tanpa partner yang tepat, proses desain sering memakan waktu lebih lama dari
+              target.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="card pain-card h-100 border-0 p-4">
+            <div
+              class="icon-box icon-box-secondary-soft d-flex align-items-center justify-content-center rounded-3 mb-3">
+              <i class="bi bi-cash-stack"></i>
+            </div>
+            <h3 class="pain-title mb-2">Biaya Operasional Tinggi</h3>
+            <p class="pain-desc mb-0">Membentuk tim desain in-house memerlukan biaya gaji dan operasional yang besar.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="card pain-card h-100 border-0 p-4">
+            <div
+              class="icon-box icon-box-secondary-soft d-flex align-items-center justify-content-center rounded-3 mb-3">
+              <i class="bi bi-palette2"></i>
+            </div>
+            <h3 class="pain-title mb-2">Gaya Visual Tidak Konsisten</h3>
+            <p class="pain-desc mb-0">Tanpa panduan brand yang jelas, tampilan visual bisnis jadi tidak konsisten dan
+              kurang dipercaya.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <p class="mb-3 fw-semibold">Konsultasikan kebutuhan desainmu bersama tim kami, <a href="#kontak">Konsultrasi
+            Gratis</a></p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 5. VALUE PROPOSITION / TENTANG -->
+
+  <section id="tentang" class="value-section py-5 py-lg-6">
+    <div class="container">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-lg-8">
+          <span class="section-eyebrow">Tentang Kami</span>
+          <h2 class="section-title mt-2 mb-3">Saatnya Permudah Segala Kebutuhan Desainmu</h2>
+          <p class="section-subtitle mb-0">
+            NJOUY adalah studio desain grafis yang membantu UMKM, brand lokal, konten kreator, pebisnis online, dan
+            startup membangun identitas visual yang kuat — tanpa perlu merekrut tim desain sendiri.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-4 text-center">
+        <div class="col-md-4">
+          <div class="value-item h-100 p-4">
+            <div
+              class="icon-box icon-box-white d-flex align-items-center justify-content-center rounded-circle mx-auto mb-3">
+              <i class="bi bi-award"></i>
+            </div>
+            <h3 class="value-title mb-2">Desainer Berpengalaman</h3>
+            <p class="value-desc mb-0">Setiap proyek ditangani langsung oleh desainer dengan portofolio yang sudah
+              teruji.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="value-item h-100 p-4">
+            <div
+              class="icon-box icon-box-white d-flex align-items-center justify-content-center rounded-circle mx-auto mb-3">
+              <i class="bi bi-sliders"></i>
+            </div>
+            <h3 class="value-title mb-2">Fleksibel & Terukur</h3>
+            <p class="value-desc mb-0">Sesuaikan jenis layanan dengan kebutuhan bisnis tanpa kontrak yang mengikat.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="value-item h-100 p-4">
+            <div
+              class="icon-box icon-box-white d-flex align-items-center justify-content-center rounded-circle mx-auto mb-3">
+              <i class="bi bi-layers"></i>
+            </div>
+            <h3 class="value-title mb-2">Satu Partner, Banyak Layanan</h3>
+            <p class="value-desc mb-0">Mulai dari logo, branding, hingga desain media sosial dalam satu tempat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 6. LAYANAN KAMI -->
+
+  <section id="layanan" class="layanan-section py-5 py-lg-6">
+    <div class="container">
+
+      <div class="text-center mb-5">
+        <span class="section-eyebrow">Layanan Kami</span>
+        <h2 class="section-title mt-2">Request Desain Apapun Sesuai Kebutuhan</h2>
+        <p class="section-subtitle col-lg-7 mx-auto">
+          Tiga layanan utama yang kami rancang untuk membantu bisnis tampil lebih kuat secara visual.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="card service-card h-100 border-0 p-4">
+            <div class="icon-box icon-box-primary d-flex align-items-center justify-content-center rounded-3 mb-4">
+              <i class="bi bi-vector-pen"></i>
+            </div>
+            <h3 class="service-title mb-2">Desain Logo</h3>
+            <p class="service-desc mb-0">Logo yang merepresentasikan karakter brand Anda secara unik, simpel, dan mudah
+              dikenali oleh pelanggan.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="card service-card h-100 border-0 p-4">
+            <div class="icon-box icon-box-primary d-flex align-items-center justify-content-center rounded-3 mb-4">
+              <i class="bi bi-palette"></i>
+            </div>
+            <h3 class="service-title mb-2">Branding</h3>
+            <p class="service-desc mb-0">Membangun identitas visual yang konsisten, mulai dari warna, tipografi, hingga
+              panduan penggunaan brand.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mx-auto">
+          <div class="card service-card h-100 border-0 p-4">
+            <div class="icon-box icon-box-primary d-flex align-items-center justify-content-center rounded-3 mb-4">
+              <i class="bi bi-phone"></i>
+            </div>
+            <h3 class="service-title mb-2">Desain Media Sosial</h3>
+            <p class="service-desc mb-0">Konten visual yang menarik dan konsisten untuk Instagram, TikTok, dan platform
+              sosial media lainnya.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 7. CARA KERJA — 3 langkah -->
+
+  <section class="proses-section py-5 py-lg-6">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-eyebrow">Cara Kerja</span>
+        <h2 class="section-title mt-2">Desain Berkualitas dengan Mudah dan Cepat</h2>
+        <p class="section-subtitle col-lg-7 mx-auto">
+          Penuhi segala kebutuhan desainmu cukup dengan 4 langkah mudah dari kami.
+        </p>
+      </div>
+      <div class="row g-4 text-center">
+        <div class="col-md-3">
+          <div class="proses-item h-100 p-4">
+            <div class="proses-number mb-3">01</div>
+            <h3 class="proses-title mb-2">Pilih Paket</h3>
+            <p class="proses-desc mb-0">Pilih Paket Basic, Standard, atau Premium sesuai kebutuhan desain Anda.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="proses-item h-100 p-4">
+            <div class="proses-number mb-3">02</div>
+            <h3 class="proses-title mb-2">Klik Chat Admin</h3>
+            <p class="proses-desc mb-0">Tombol otomatis mengarahkan format order langsung ke WhatsApp.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="proses-item h-100 p-4">
+            <div class="proses-number mb-3">03</div>
+            <h3 class="proses-title mb-2">Brief & Bayar</h3>
+            <p class="proses-desc mb-0">Sampaikan detail desain Anda lalu bayar via Transfer Bank, QRIS, atau E-Wallet.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="proses-item h-100 p-4">
+            <div class="proses-number mb-3">04</div>
+            <h3 class="proses-title mb-2">Hasil Dikirim</h3>
+            <p class="proses-desc mb-0">File desain dikirim dalam format rapi via Email/Google Drive Anda.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. PORTFOLIO -->
+
+  <section id="portfolio" class="portfolio-section py-5 py-lg-6">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-eyebrow">Portfolio</span>
+        <h2 class="section-title mt-2">Karya yang Telah Kami Wujudkan</h2>
+        <p class="section-subtitle col-lg-7 mx-auto">
+          Sebagian hasil desain yang telah membantu bisnis di berbagai industri.
+        </p>
+      </div>
     </div>
 
-    <div class="row g-4 text-center">
-      <div class="col-md-4">
-        <div class="value-item h-100 p-4">
-          <div class="icon-box icon-box-white d-flex align-items-center justify-content-center rounded-circle mx-auto mb-3">
-            <i class="bi bi-award"></i>
-          </div>
-          <h3 class="value-title mb-2">Desainer Berpengalaman</h3>
-          <p class="value-desc mb-0">Setiap proyek ditangani langsung oleh desainer dengan portofolio yang sudah teruji.</p>
+    <!-- Baris 1: bergerak ke kiri -->
+    <div class="marquee-row mb-4">
+      <div class="marquee-track marquee-left d-flex gap-4">
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p1.jpeg" alt="Illustrasi 2D" class="portfolio-image">
+          <span class="portfolio-label">Illustrasi 2D</span>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="value-item h-100 p-4">
-          <div class="icon-box icon-box-white d-flex align-items-center justify-content-center rounded-circle mx-auto mb-3">
-            <i class="bi bi-sliders"></i>
-          </div>
-          <h3 class="value-title mb-2">Fleksibel & Terukur</h3>
-          <p class="value-desc mb-0">Sesuaikan jenis layanan dengan kebutuhan bisnis tanpa kontrak yang mengikat.</p>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p2.jpeg" alt="Media Sosial" class="portfolio-image">
+          <span class="portfolio-label">Media Sosial</span>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="value-item h-100 p-4">
-          <div class="icon-box icon-box-white d-flex align-items-center justify-content-center rounded-circle mx-auto mb-3">
-            <i class="bi bi-layers"></i>
-          </div>
-          <h3 class="value-title mb-2">Satu Partner, Banyak Layanan</h3>
-          <p class="value-desc mb-0">Mulai dari logo, branding, hingga desain media sosial dalam satu tempat.</p>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p3.jpeg" alt="Poster" class="portfolio-image">
+          <span class="portfolio-label">Poster</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p4.jpeg" alt="Company Profile" class="portfolio-image">
+          <span class="portfolio-label">Company Profile</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p5.jpeg" alt="Mascot" class="portfolio-image">
+          <span class="portfolio-label">Mascot</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p6.jpeg" alt="Presentation" class="portfolio-image">
+          <span class="portfolio-label">Presentation</span>
+        </div>
+        <!-- duplikat set agar loop mulus -->
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p1.jpeg" alt="Illustrasi 2D" class="portfolio-image">
+          <span class="portfolio-label">Illustrasi 2D</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p2.jpeg" alt="Media Sosial" class="portfolio-image">
+          <span class="portfolio-label">Media Sosial</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p3.jpeg" alt="Poster" class="portfolio-image">
+          <span class="portfolio-label">Poster</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p4.jpeg" alt="Company Profile" class="portfolio-image">
+          <span class="portfolio-label">Company Profile</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p5.jpeg" alt="Mascot" class="portfolio-image">
+          <span class="portfolio-label">Mascot</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p6.jpeg" alt="Presentation" class="portfolio-image">
+          <span class="portfolio-label">Presentation</span>
         </div>
       </div>
     </div>
-  </div>
-</section>
+
+    <!-- Baris 2: bergerak ke kanan -->
+    <div class="marquee-row">
+      <div class="marquee-track marquee-right d-flex gap-4">
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p7.jpeg" alt="Wireframe" class="portfolio-image">
+          <span class="portfolio-label">Wireframe</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p8.jpeg" alt="Logo" class="portfolio-image">
+          <span class="portfolio-label">Logo</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p3.jpeg" alt="Poster" class="portfolio-image">
+          <span class="portfolio-label">Poster</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p5.jpeg" alt="Mascot" class="portfolio-image">
+          <span class="portfolio-label">Mascot</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p2.jpeg" alt="Media Sosial" class="portfolio-image">
+          <span class="portfolio-label">Media Sosial</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p6.jpeg" alt="Presentation" class="portfolio-image">
+          <span class="portfolio-label">Presentation</span>
+        </div>
+        <!-- duplikat set agar loop mulus -->
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p7.jpeg" alt="Wireframe" class="portfolio-image">
+          <span class="portfolio-label">Wireframe</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p8.jpeg" alt="Logo" class="portfolio-image">
+          <span class="portfolio-label">Logo</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p3.jpeg" alt="Poster" class="portfolio-image">
+          <span class="portfolio-label">Poster</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p5.jpeg" alt="Mascot" class="portfolio-image">
+          <span class="portfolio-label">Mascot</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p2.jpeg" alt="Media Sosial" class="portfolio-image">
+          <span class="portfolio-label">Media Sosial</span>
+        </div>
+        <div class="portfolio-item rounded-4">
+          <img src="assets/img/p6.jpeg" alt="Presentation" class="portfolio-image">
+          <span class="portfolio-label">Presentation</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-<!-- 6. LAYANAN KAMI -->
+  <!-- ============================================= -->
+  <!-- 9. TESTIMONI -->
+  <!-- row g-4, col-lg-4, Bootstrap Card -->
+  <!-- ============================================= -->
+  <section id="testimoni" class="testimoni-section py-5 py-lg-6">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-eyebrow">Testimoni</span>
+        <h2 class="section-title mt-2">Apa Kata Mereka Tentang Kami</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="card testi-card h-100 border-0 p-4">
+            <i class="bi bi-quote testi-quote mb-3"></i>
+            <p class="testi-text mb-4">"Hasil desainnya rapi dan sesuai brief. Komunikasinya juga gampang, jadi nggak
+              perlu bolak-balik revisi."</p>
+            <div class="testi-author">
+              <p class="mb-0 fw-bold">Dinda Pratiwi</p>
+              <p class="mb-0 testi-role">Owner, Kopi Senja</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="card testi-card h-100 border-0 p-4">
+            <i class="bi bi-quote testi-quote mb-3"></i>
+            <p class="testi-text mb-4">"Sangat membantu untuk konten Instagram brand kami. Desainnya konsisten dan
+              selalu tepat waktu."</p>
+            <div class="testi-author">
+              <p class="mb-0 fw-bold">Rangga Saputra</p>
+              <p class="mb-0 testi-role">Konten Kreator</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="card testi-card h-100 border-0 p-4">
+            <i class="bi bi-quote testi-quote mb-3"></i>
+            <p class="testi-text mb-4">"Logo dan brand guideline yang dibuat benar-benar mencerminkan visi startup kami.
+              Sangat profesional."</p>
+            <div class="testi-author">
+              <p class="mb-0 fw-bold">Maya Anindita</p>
+              <p class="mb-0 testi-role">Co-Founder, Lentera Tech</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section id="layanan" class="layanan-section py-5 py-lg-6">
-  <div class="container">
 
-    <div class="text-center mb-5">
-      <span class="section-eyebrow">Layanan Kami</span>
-      <h2 class="section-title mt-2">Request Desain Apapun Sesuai Kebutuhan</h2>
-      <p class="section-subtitle col-lg-7 mx-auto">
-        Tiga layanan utama yang kami rancang untuk membantu bisnis tampil lebih kuat secara visual.
+  <!-- 10. FASILITAS / BENEFIT TAMBAHAN -->
+
+  <section class="fasilitas-section py-5 py-lg-6">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-eyebrow text-light-eyebrow">Fasilitas</span>
+        <h2 class="section-title mt-2 text-white">Fasilitas yang Bakal Kamu Dapatkan</h2>
+        <p class="section-subtitle col-lg-7 mx-auto text-light-subtitle">
+          Koordinasi yang mudah, efektif, dan profesional di setiap proyek.
+        </p>
+      </div>
+      <div class="row g-4 text-center">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="fasilitas-item h-100 p-4">
+            <div
+              class="icon-box icon-box-translucent d-flex align-items-center justify-content-center rounded-3 mx-auto mb-3">
+              <i class="bi bi-person-workspace"></i>
+            </div>
+            <h3 class="fasilitas-title mb-2">Project Manager</h3>
+            <p class="fasilitas-desc mb-0">Satu kontak yang menangani seluruh kebutuhan desainmu dari awal sampai
+              selesai.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="fasilitas-item h-100 p-4">
+            <div
+              class="icon-box icon-box-translucent d-flex align-items-center justify-content-center rounded-3 mx-auto mb-3">
+              <i class="bi bi-kanban"></i>
+            </div>
+            <h3 class="fasilitas-title mb-2">Board Progres</h3>
+            <p class="fasilitas-desc mb-0">Pantau status setiap permintaan desain secara real-time.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="fasilitas-item h-100 p-4">
+            <div
+              class="icon-box icon-box-translucent d-flex align-items-center justify-content-center rounded-3 mx-auto mb-3">
+              <i class="bi bi-whatsapp"></i>
+            </div>
+            <h3 class="fasilitas-title mb-2">Grup Diskusi</h3>
+            <p class="fasilitas-desc mb-0">Koordinasi cepat melalui grup khusus bersama tim desain.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="fasilitas-item h-100 p-4">
+            <div
+              class="icon-box icon-box-translucent d-flex align-items-center justify-content-center rounded-3 mx-auto mb-3">
+              <i class="bi bi-folder2-open"></i>
+            </div>
+            <h3 class="fasilitas-title mb-2">Manajemen File</h3>
+            <p class="fasilitas-desc mb-0">Seluruh hasil desain tersimpan rapi dalam folder khusus milikmu.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================= -->
+  <!-- 11. PAKET HARGA -->
+  <!-- row g-4, col-lg-4, Bootstrap Card dengan highlight pada paket populer -->
+  <!-- ============================================= -->
+  <section id="harga" class="harga-section py-5 py-lg-6">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-eyebrow">Paket Harga</span>
+        <h2 class="section-title mt-2">Temukan Paket Terbaikmu</h2>
+        <p class="section-subtitle col-lg-7 mx-auto">
+          Pilih paket yang paling sesuai dengan kebutuhan desain bisnismu.
+        </p>
+      </div>
+      <div class="row g-4 align-items-stretch">
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="card pricing-card h-100 border-0 p-4">
+            <h3 class="pricing-name mb-1">Paket Basic</h3>
+            <p class="pricing-desc mb-3">
+              Sangat cocok untuk kebutuhan personal seperti kado vector portrait 1 wajah, 
+              line art sederhana, atau redraw/tracing logo resolusi rendah.
+            </p>
+            <div class="pricing-price mb-4">Rp 100rb</div>
+            <ul class="pricing-list mb-4 ps-0">
+              <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> 1 Proyek dalam 1
+                waktu</li>
+              <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Desain Logo</li>
+              <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Desain Media
+                Sosial</li>
+              <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Revisi hingga 3x
+              </li>
+            </ul>
+            <a href="#cta-penutup" class="btn btn-cta-secondary rounded-pill w-100 mt-auto">Pilih Paket</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="card pricing-card pricing-popular h-100 border-0 p-4">
+            <span class="pricing-badge rounded-pill px-3 py-1">Paling Populer</span>
+            <h3 class="pricing-name mb-1">Paket Standar</h3>
+            <p class="pricing-desc mb-3">
+              Pilihan ideal untuk UMKM. Bebas request untuk pembuatan Logo Bisnis, 
+              Desain Merchandise/Kaos, atau Maskot dengan detail menengah.
+            </p>
+            <div class="pricing-price mb-4">Rp 1.5jt</div>
+            <ul class="pricing-list mb-4 ps-0">
+              <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> 2 Proyek dalam 1
+                waktu</li>
+              <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Semua layanan
+                paket Starter</li>
+              <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Branding & Brand
+                Guideline</li>
+              <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Revisi tanpa batas
+              </li>
+            </ul>
+            <a href="#cta-penutup" class="btn btn-cta-primary rounded-pill w-100 mt-auto">Pilih Paket</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="card pricing-card h-100 border-0 p-4">
+            <h3 class="pricing-name mb-1">Paket Premium</h3>
+            <p class="pricing-desc mb-3">
+              Solusi untuk Startup & Korporat. Dapatkan Branding/Identitas Visual penuh, 
+              Aset Web UI yang kompleks, atau ilustrasi teknis dengan presisi tinggi.
+            </p>
+            <div class="pricing-price mb-4">Rp 2.9jt</div>
+            <ul class="pricing-list mb-4 ps-0">
+              <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Proyek tanpa batas
+              </li>
+              <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Semua layanan
+                paket Growth</li>
+              <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Dedicated Project
+                Manager</li>
+              <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Multi-brand
+                support</li>
+            </ul>
+            <a href="#cta-penutup" class="btn btn-cta-secondary rounded-pill w-100 mt-auto">Pilih Paket</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 12. CTA PENUTUP -->
+
+  <section id="cta-penutup" class="cta-penutup-section py-5">
+    <div class="container text-center">
+      <h2 class="cta-title mb-3">Ambil Langkah Pertama Menuju Brand yang Lebih Kuat</h2>
+      <p class="cta-desc mb-4 col-lg-7 mx-auto">
+        Tanpa perlu hiring tim desain sendiri, dapatkan hasil desain profesional dengan harga terjangkau.
       </p>
+      <a href="#kontak" class="btn btn-cta-primary btn-lg px-5">Konsultasi Gratis</a>
     </div>
-
-    <div class="row g-4">
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="card service-card h-100 border-0 p-4">
-          <div class="icon-box icon-box-primary d-flex align-items-center justify-content-center rounded-3 mb-4">
-            <i class="bi bi-vector-pen"></i>
-          </div>
-          <h3 class="service-title mb-2">Desain Logo</h3>
-          <p class="service-desc mb-0">Logo yang merepresentasikan karakter brand Anda secara unik, simpel, dan mudah dikenali oleh pelanggan.</p>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="card service-card h-100 border-0 p-4">
-          <div class="icon-box icon-box-primary d-flex align-items-center justify-content-center rounded-3 mb-4">
-            <i class="bi bi-palette"></i>
-          </div>
-          <h3 class="service-title mb-2">Branding</h3>
-          <p class="service-desc mb-0">Membangun identitas visual yang konsisten, mulai dari warna, tipografi, hingga panduan penggunaan brand.</p>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4 mx-auto">
-        <div class="card service-card h-100 border-0 p-4">
-          <div class="icon-box icon-box-primary d-flex align-items-center justify-content-center rounded-3 mb-4">
-            <i class="bi bi-phone"></i>
-          </div>
-          <h3 class="service-title mb-2">Desain Media Sosial</h3>
-          <p class="service-desc mb-0">Konten visual yang menarik dan konsisten untuk Instagram, TikTok, dan platform sosial media lainnya.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- 7. CARA KERJA — 3 langkah -->
+  <!-- 13. FAQ -->
 
-<section class="proses-section py-5 py-lg-6">
-  <div class="container">
-    <div class="text-center mb-5">
-      <span class="section-eyebrow">Cara Kerja</span>
-      <h2 class="section-title mt-2">Desain Berkualitas dengan Mudah dan Cepat</h2>
-      <p class="section-subtitle col-lg-7 mx-auto">
-        Penuhi segala kebutuhan desainmu cukup dengan 3 langkah mudah dari kami.
-      </p>
-    </div>
-    <div class="row g-4 text-center">
-      <div class="col-md-4">
-        <div class="proses-item h-100 p-4">
-          <div class="proses-number mb-3">01</div>
-          <h3 class="proses-title mb-2">Kirim Brief Desainmu</h3>
-          <p class="proses-desc mb-0">Sampaikan kebutuhan desain melalui form singkat yang sudah kami siapkan.</p>
-        </div>
+  <section id="faq" class="faq-section py-5 py-lg-6">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-eyebrow">FAQ</span>
+        <h2 class="section-title mt-2">Pertanyaan yang Sering Diajukan</h2>
+        <p class="section-subtitle col-lg-7 mx-auto">Temukan jawaban atas pertanyaan umum seputar layanan kami.</p>
       </div>
-      <div class="col-md-4">
-        <div class="proses-item h-100 p-4">
-          <div class="proses-number mb-3">02</div>
-          <h3 class="proses-title mb-2">Kami Proses & Diskusi</h3>
-          <p class="proses-desc mb-0">Tim desainer kami mengerjakan permintaanmu, dengan ruang diskusi terbuka jika diperlukan.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="proses-item h-100 p-4">
-          <div class="proses-number mb-3">03</div>
-          <h3 class="proses-title mb-2">Hasil Siap Digunakan</h3>
-          <p class="proses-desc mb-0">Terima preview desain, berikan masukan, lalu unduh hasil akhir setelah disetujui.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- 8. PORTFOLIO -->
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="accordion" id="faqAccordion">
 
-<section id="portfolio" class="portfolio-section py-5 py-lg-6">
-  <div class="container">
-    <div class="text-center mb-5">
-      <span class="section-eyebrow">Portfolio</span>
-      <h2 class="section-title mt-2">Karya yang Telah Kami Wujudkan</h2>
-      <p class="section-subtitle col-lg-7 mx-auto">
-        Sebagian hasil desain yang telah membantu bisnis di berbagai industri.
-      </p>
-    </div>
-  </div>
+            <div class="accordion-item faq-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq1">
+                  Apa itu Kreatif.Studio dan bagaimana cara kerjanya?
+                </button>
+              </h3>
+              <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">Kreatif.Studio adalah jasa desain grafis yang membantu bisnis membuat logo,
+                  branding, dan desain media sosial. Kamu cukup mengirimkan brief desain, lalu tim kami akan
+                  mengerjakannya sesuai paket yang dipilih.</div>
+              </div>
+            </div>
 
-  <!-- Baris 1: bergerak ke kiri -->
-  <div class="marquee-row mb-4">
-    <div class="marquee-track marquee-left d-flex gap-4">
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p1.jpeg" alt="Illustrasi 2D" class="portfolio-image">
-        <span class="portfolio-label">Illustrasi 2D</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p2.jpeg" alt="Media Sosial" class="portfolio-image">
-        <span class="portfolio-label">Media Sosial</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p3.jpeg" alt="Poster" class="portfolio-image">
-        <span class="portfolio-label">Poster</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p4.jpeg" alt="Company Profile" class="portfolio-image">
-        <span class="portfolio-label">Company Profile</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p5.jpeg" alt="Mascot" class="portfolio-image">
-        <span class="portfolio-label">Mascot</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p6.jpeg" alt="Presentation" class="portfolio-image">
-        <span class="portfolio-label">Presentation</span>
-      </div>
-      <!-- duplikat set agar loop mulus -->
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p1.jpeg" alt="Illustrasi 2D" class="portfolio-image">
-        <span class="portfolio-label">Illustrasi 2D</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p2.jpeg" alt="Media Sosial" class="portfolio-image">
-        <span class="portfolio-label">Media Sosial</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p3.jpeg" alt="Poster" class="portfolio-image">
-        <span class="portfolio-label">Poster</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p4.jpeg" alt="Company Profile" class="portfolio-image">
-        <span class="portfolio-label">Company Profile</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p5.jpeg" alt="Mascot" class="portfolio-image">
-        <span class="portfolio-label">Mascot</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p6.jpeg" alt="Presentation" class="portfolio-image">
-        <span class="portfolio-label">Presentation</span>
-      </div>
-    </div>
-  </div>
+            <div class="accordion-item faq-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq2">
+                  Berapa lama waktu pengerjaan desain?
+                </button>
+              </h3>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">Waktu pengerjaan bervariasi tergantung jenis dan kompleksitas desain,
+                  umumnya antara 1–3 hari kerja untuk satu permintaan desain.</div>
+              </div>
+            </div>
 
-  <!-- Baris 2: bergerak ke kanan -->
-  <div class="marquee-row">
-    <div class="marquee-track marquee-right d-flex gap-4">
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p7.jpeg" alt="Wireframe" class="portfolio-image">
-        <span class="portfolio-label">Wireframe</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p8.jpeg" alt="Logo" class="portfolio-image">
-        <span class="portfolio-label">Logo</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p3.jpeg" alt="Poster" class="portfolio-image">
-        <span class="portfolio-label">Poster</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p5.jpeg" alt="Mascot" class="portfolio-image">
-        <span class="portfolio-label">Mascot</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p2.jpeg" alt="Media Sosial" class="portfolio-image">
-        <span class="portfolio-label">Media Sosial</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p6.jpeg" alt="Presentation" class="portfolio-image">
-        <span class="portfolio-label">Presentation</span>
-      </div>
-      <!-- duplikat set agar loop mulus -->
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p7.jpeg" alt="Wireframe" class="portfolio-image">
-        <span class="portfolio-label">Wireframe</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p8.jpeg" alt="Logo" class="portfolio-image">
-        <span class="portfolio-label">Logo</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p3.jpeg" alt="Poster" class="portfolio-image">
-        <span class="portfolio-label">Poster</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p5.jpeg" alt="Mascot" class="portfolio-image">
-        <span class="portfolio-label">Mascot</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p2.jpeg" alt="Media Sosial" class="portfolio-image">
-        <span class="portfolio-label">Media Sosial</span>
-      </div>
-      <div class="portfolio-item rounded-4">
-        <img src="assets/img/p6.jpeg" alt="Presentation" class="portfolio-image">
-        <span class="portfolio-label">Presentation</span>
-      </div>
-    </div>
-  </div>
-</section>
+            <div class="accordion-item faq-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq3">
+                  Apakah saya bisa request revisi?
+                </button>
+              </h3>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">Tentu. Setiap paket memiliki jumlah revisi yang berbeda, dan kami pastikan
+                  hasil akhir sesuai dengan kebutuhanmu sebelum file diserahkan.</div>
+              </div>
+            </div>
 
+            <div class="accordion-item faq-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq4">
+                  Bagaimana sistem pembayarannya?
+                </button>
+              </h3>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">Kami menggunakan sistem paket bulanan yang dibayar di awal periode. Kamu
+                  bisa upgrade atau downgrade paket sesuai kebutuhan bisnis.</div>
+              </div>
+            </div>
 
-<!-- ============================================= -->
-<!-- 9. TESTIMONI -->
-<!-- row g-4, col-lg-4, Bootstrap Card -->
-<!-- ============================================= -->
-<section id="testimoni" class="testimoni-section py-5 py-lg-6">
-  <div class="container">
-    <div class="text-center mb-5">
-      <span class="section-eyebrow">Testimoni</span>
-      <h2 class="section-title mt-2">Apa Kata Mereka Tentang Kami</h2>
-    </div>
-    <div class="row g-4">
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="card testi-card h-100 border-0 p-4">
-          <i class="bi bi-quote testi-quote mb-3"></i>
-          <p class="testi-text mb-4">"Hasil desainnya rapi dan sesuai brief. Komunikasinya juga gampang, jadi nggak perlu bolak-balik revisi."</p>
-          <div class="testi-author">
-            <p class="mb-0 fw-bold">Dinda Pratiwi</p>
-            <p class="mb-0 testi-role">Owner, Kopi Senja</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="card testi-card h-100 border-0 p-4">
-          <i class="bi bi-quote testi-quote mb-3"></i>
-          <p class="testi-text mb-4">"Sangat membantu untuk konten Instagram brand kami. Desainnya konsisten dan selalu tepat waktu."</p>
-          <div class="testi-author">
-            <p class="mb-0 fw-bold">Rangga Saputra</p>
-            <p class="mb-0 testi-role">Konten Kreator</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="card testi-card h-100 border-0 p-4">
-          <i class="bi bi-quote testi-quote mb-3"></i>
-          <p class="testi-text mb-4">"Logo dan brand guideline yang dibuat benar-benar mencerminkan visi startup kami. Sangat profesional."</p>
-          <div class="testi-author">
-            <p class="mb-0 fw-bold">Maya Anindita</p>
-            <p class="mb-0 testi-role">Co-Founder, Lentera Tech</p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- 10. FASILITAS / BENEFIT TAMBAHAN -->
+  <!-- 14. FORM KONTAK -->
 
-<section class="fasilitas-section py-5 py-lg-6">
-  <div class="container">
-    <div class="text-center mb-5">
-      <span class="section-eyebrow text-light-eyebrow">Fasilitas</span>
-      <h2 class="section-title mt-2 text-white">Fasilitas yang Bakal Kamu Dapatkan</h2>
-      <p class="section-subtitle col-lg-7 mx-auto text-light-subtitle">
-        Koordinasi yang mudah, efektif, dan profesional di setiap proyek.
-      </p>
-    </div>
-    <div class="row g-4 text-center">
-      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-        <div class="fasilitas-item h-100 p-4">
-          <div class="icon-box icon-box-translucent d-flex align-items-center justify-content-center rounded-3 mx-auto mb-3">
-            <i class="bi bi-person-workspace"></i>
+  <section id="kontak" class="kontak-section py-5 py-lg-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="text-start mb-5">
+            <span class="section-eyebrow">Kontak</span>
+            <h2 class="section-title mt-2">Punya Kebutuhan Desain? Hubungi Kami</h2>
+            <p class="section-subtitle">Konsultasi pertama gratis dan tanpa komitmen. Ceritakan kebutuhan desainmu, dan
+              kami bantu temukan solusi terbaik.</p>
           </div>
-          <h3 class="fasilitas-title mb-2">Project Manager</h3>
-          <p class="fasilitas-desc mb-0">Satu kontak yang menangani seluruh kebutuhan desainmu dari awal sampai selesai.</p>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-        <div class="fasilitas-item h-100 p-4">
-          <div class="icon-box icon-box-translucent d-flex align-items-center justify-content-center rounded-3 mx-auto mb-3">
-            <i class="bi bi-kanban"></i>
+          <div class="kontak-info">
+            <div class="d-flex align-items-start mb-4">
+              <i class="bi bi-geo-alt-fill fs-4 me-3 kontak-icon"></i>
+              <div>
+                <p class="fw-bold mb-1">Alamat Studio</p>
+                <p class="mb-0 text-secondary">
+                  Jl. Kreatif No. 123, Jakarta
+                </p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start mb-4">
+              <i class="bi bi-telephone-fill fs-4 me-3 kontak-icon"></i>
+              <div>
+                <p class="fw-bold mb-1">WhatsApp / Telepon</p>
+                <p class="mb-0 text-secondary">
+                  0812-3456-7890
+                </p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start mb-4">
+              <i class="bi bi-envelope-fill fs-4 me-3 kontak-icon"></i>
+              <div>
+                <p class="fw-bold mb-1">Email</p>
+                <p class="mb-0 text-secondary">
+                  info@njoydesign.com
+                </p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start">
+              <i class="bi bi-clock-fill fs-4 me-3 kontak-icon"></i>
+              <div>
+                <p class="fw-bold mb-1">Jam Operasional</p>
+                <p class="mb-0 text-secondary">
+                  Senin - Jumat: 09.00 - 18.00
+                </p>
+              </div>
+            </div>
           </div>
-          <h3 class="fasilitas-title mb-2">Board Progres</h3>
-          <p class="fasilitas-desc mb-0">Pantau status setiap permintaan desain secara real-time.</p>
         </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-        <div class="fasilitas-item h-100 p-4">
-          <div class="icon-box icon-box-translucent d-flex align-items-center justify-content-center rounded-3 mx-auto mb-3">
-            <i class="bi bi-whatsapp"></i>
-          </div>
-          <h3 class="fasilitas-title mb-2">Grup Diskusi</h3>
-          <p class="fasilitas-desc mb-0">Koordinasi cepat melalui grup khusus bersama tim desain.</p>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-        <div class="fasilitas-item h-100 p-4">
-          <div class="icon-box icon-box-translucent d-flex align-items-center justify-content-center rounded-3 mx-auto mb-3">
-            <i class="bi bi-folder2-open"></i>
-          </div>
-          <h3 class="fasilitas-title mb-2">Manajemen File</h3>
-          <p class="fasilitas-desc mb-0">Seluruh hasil desain tersimpan rapi dalam folder khusus milikmu.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+        <div class="col-lg-6">
+          <div class="card card-kontak mt-5 mt-lg-0">
+            <div class="card-body">
+              <div class="text-center mb-5">
+                <h5 class="card-title fw-bold mt-2">Kirim Pesan</h5>
+                <p class="card-subtitle">Isi form di bawah ini, tim kami akan segera menghubungi Anda kembali.</p>
+              </div>
 
-<!-- ============================================= -->
-<!-- 11. PAKET HARGA -->
-<!-- row g-4, col-lg-4, Bootstrap Card dengan highlight pada paket populer -->
-<!-- ============================================= -->
-<section id="harga" class="harga-section py-5 py-lg-6">
-  <div class="container">
-    <div class="text-center mb-5">
-      <span class="section-eyebrow">Paket Harga</span>
-      <h2 class="section-title mt-2">Temukan Paket Terbaikmu</h2>
-      <p class="section-subtitle col-lg-7 mx-auto">
-        Pilih paket yang paling sesuai dengan kebutuhan desain bisnismu.
-      </p>
-    </div>
-    <div class="row g-4 align-items-stretch">
-
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="card pricing-card h-100 border-0 p-4">
-          <h3 class="pricing-name mb-1">Starter</h3>
-          <p class="pricing-desc mb-3">Cocok untuk UMKM dan brand yang baru memulai.</p>
-          <div class="pricing-price mb-4">Rp 799rb<span>/bulan</span></div>
-          <ul class="pricing-list mb-4 ps-0">
-            <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> 1 Proyek dalam 1 waktu</li>
-            <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Desain Logo</li>
-            <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Desain Media Sosial</li>
-            <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Revisi hingga 3x</li>
-          </ul>
-          <a href="#cta-penutup" class="btn btn-cta-secondary rounded-pill w-100 mt-auto">Pilih Paket</a>
-        </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="card pricing-card pricing-popular h-100 border-0 p-4">
-          <span class="pricing-badge rounded-pill px-3 py-1">Paling Populer</span>
-          <h3 class="pricing-name mb-1">Growth</h3>
-          <p class="pricing-desc mb-3">Untuk brand dan konten kreator yang aktif berproduksi.</p>
-          <div class="pricing-price mb-4">Rp 1.5jt<span>/bulan</span></div>
-          <ul class="pricing-list mb-4 ps-0">
-            <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> 2 Proyek dalam 1 waktu</li>
-            <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Semua layanan paket Starter</li>
-            <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Branding & Brand Guideline</li>
-            <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Revisi tanpa batas</li>
-          </ul>
-          <a href="#cta-penutup" class="btn btn-cta-primary rounded-pill w-100 mt-auto">Pilih Paket</a>
-        </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="card pricing-card h-100 border-0 p-4">
-          <h3 class="pricing-name mb-1">Business</h3>
-          <p class="pricing-desc mb-3">Untuk startup dan bisnis dengan banyak brand.</p>
-          <div class="pricing-price mb-4">Rp 2.9jt<span>/bulan</span></div>
-          <ul class="pricing-list mb-4 ps-0">
-            <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Proyek tanpa batas</li>
-            <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Semua layanan paket Growth</li>
-            <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Dedicated Project Manager</li>
-            <li class="d-flex align-items-start gap-2 mb-2"><i class="bi bi-check-circle-fill"></i> Multi-brand support</li>
-          </ul>
-          <a href="#cta-penutup" class="btn btn-cta-secondary rounded-pill w-100 mt-auto">Pilih Paket</a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- 12. CTA PENUTUP -->
-
-<section id="cta-penutup" class="cta-penutup-section py-5">
-  <div class="container text-center">
-    <h2 class="cta-title mb-3">Ambil Langkah Pertama Menuju Brand yang Lebih Kuat</h2>
-    <p class="cta-desc mb-4 col-lg-7 mx-auto">
-      Tanpa perlu hiring tim desain sendiri, dapatkan hasil desain profesional dengan harga terjangkau.
-    </p>
-    <a href="#kontak" class="btn btn-cta-primary btn-lg px-5">Konsultasi Gratis</a>
-  </div>
-</section>
-
-
-<!-- 13. FAQ -->
-
-<section id="faq" class="faq-section py-5 py-lg-6">
-  <div class="container">
-    <div class="text-center mb-5">
-      <span class="section-eyebrow">FAQ</span>
-      <h2 class="section-title mt-2">Pertanyaan yang Sering Diajukan</h2>
-      <p class="section-subtitle col-lg-7 mx-auto">Temukan jawaban atas pertanyaan umum seputar layanan kami.</p>
-    </div>
-
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="accordion" id="faqAccordion">
-
-          <div class="accordion-item faq-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                Apa itu Kreatif.Studio dan bagaimana cara kerjanya?
-              </button>
-            </h3>
-            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">Kreatif.Studio adalah jasa desain grafis yang membantu bisnis membuat logo, branding, dan desain media sosial. Kamu cukup mengirimkan brief desain, lalu tim kami akan mengerjakannya sesuai paket yang dipilih.</div>
+              <form id="kontakForm" class="kontak-form row g-3" novalidate>
+                <div class="col-12">
+                  <label for="namaInput" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control form-control-lg" id="namaInput" placeholder="Nama Anda">
+                  <span class="form-error" id="namaError"></span>
+                </div>
+                <div class="col-12">
+                  <label for="emailInput" class="form-label">Alamat Email</label>
+                  <input type="email" class="form-control form-control-lg" id="emailInput" placeholder="nama@email.com">
+                  <span class="form-error" id="emailError"></span>
+                </div>
+                <div class="col-12">
+                  <label for="layananInput" class="form-label">Layanan yang Diminati</label>
+                  <input type="text" class="form-control form-control-lg" id="layananInput"
+                    placeholder="Layanan yang Anda minati">
+                  <span class="form-error" id="layananError"></span>
+                </div>
+                <div class="col-12">
+                  <label for="pesanInput" class="form-label">Pesan</label>
+                  <textarea class="form-control form-control-lg" id="pesanInput" rows="4" 
+                    placeholder="Ceritakan kebutuhan desainmu"></textarea>
+                  <span class="form-error" id="pesanError"></span>
+                </div>
+                <div class="col-12">
+                  <div id="formFeedback" class="form-feedback rounded-3 text-center py-3 d-none"></div>
+                </div>
+                <div class="col-12 text-center mt-4">
+                  <button type="submit" class="btn btn-cta-primary rounded-pill btn-lg px-5">Kirim Pesan</button>
+                </div>
+              </form>
             </div>
           </div>
 
-          <div class="accordion-item faq-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                Berapa lama waktu pengerjaan desain?
-              </button>
-            </h3>
-            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">Waktu pengerjaan bervariasi tergantung jenis dan kompleksitas desain, umumnya antara 1–3 hari kerja untuk satu permintaan desain.</div>
-            </div>
-          </div>
-
-          <div class="accordion-item faq-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                Apakah saya bisa request revisi?
-              </button>
-            </h3>
-            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">Tentu. Setiap paket memiliki jumlah revisi yang berbeda, dan kami pastikan hasil akhir sesuai dengan kebutuhanmu sebelum file diserahkan.</div>
-            </div>
-          </div>
-
-          <div class="accordion-item faq-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                Bagaimana sistem pembayarannya?
-              </button>
-            </h3>
-            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">Kami menggunakan sistem paket bulanan yang dibayar di awal periode. Kamu bisa upgrade atau downgrade paket sesuai kebutuhan bisnis.</div>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- 14. FORM KONTAK -->
-
-<section id="kontak" class="kontak-section py-5 py-lg-5">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-7">
-        <div class="text-center mb-5">
-          <span class="section-eyebrow">Kontak</span>
-          <h2 class="section-title mt-2">Punya Kebutuhan Desain? Hubungi Kami</h2>
-          <p class="section-subtitle">Isi form di bawah ini, tim kami akan segera menghubungi Anda kembali.</p>
-        </div>
-
-        <form id="kontakForm" class="kontak-form row g-3" novalidate>
-          <div class="col-12 col-md-6">
-            <label for="namaInput" class="form-label">Nama Lengkap</label>
-            <input type="text" class="form-control form-control-lg" id="namaInput" placeholder="Nama Anda">
-            <span class="form-error" id="namaError"></span>
-          </div>
-          <div class="col-12 col-md-6">
-            <label for="emailInput" class="form-label">Email</label>
-            <input type="text" class="form-control form-control-lg" id="emailInput" placeholder="nama@email.com">
-            <span class="form-error" id="emailError"></span>
-          </div>
-          <div class="col-12">
-            <label for="pesanInput" class="form-label">Pesan</label>
-            <textarea class="form-control form-control-lg" id="pesanInput" rows="4" placeholder="Ceritakan kebutuhan desainmu"></textarea>
-            <span class="form-error" id="pesanError"></span>
-          </div>
-          <div class="col-12">
-            <div id="formFeedback" class="form-feedback rounded-3 text-center py-3 d-none"></div>
-          </div>
-          <div class="col-12 text-center mt-4">
-            <button type="submit" id="submitBtn" class="btn btn-cta-primary rounded-pill btn-lg px-5">Kirim Pesan</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- 15. FOOTER -->
+  <!-- 15. FOOTER -->
 
 <footer id="footer" class="footer-section py-5">
-  <div class="container">
-    <div class="row gy-4 align-items-center">
-      <div class="col-12 col-md-4 text-center text-md-start">
-        <a href="#hero" class="brand-logo footer-brand">
-          <span class="brand-mark">N</span>JOY
-        </a>
-      </div>
+    <div class="container">
 
-      <div class="col-12 col-md-4 text-center">
-        <p class="footer-copy mb-0">&copy; 2026 N. Seluruh hak cipta dilindungi.</p>
-      </div>
+        <!-- Bagian Atas Footer -->
+        <div class="row gy-4">
 
-      <div class="col-12 col-md-4">
-        <div class="d-flex justify-content-center justify-content-md-end gap-3">
-          <a href="#" class="footer-social d-flex align-items-center justify-content-center rounded-circle" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="footer-social d-flex align-items-center justify-content-center rounded-circle" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
-          <a href="#" class="footer-social d-flex align-items-center justify-content-center rounded-circle" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-          <a href="#" class="footer-social d-flex align-items-center justify-content-center rounded-circle" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <!-- Brand -->
+            <div class="col-12 col-lg-5">
+                <a href="#hero" class="text-decoration-none footer-brand d-inline-block mb-3">
+                    <span class="brand-mark">N</span>JOY
+                </a>
+
+                <p class="footer-desc">
+                    Studio desain grafis untuk UMKM dan startup Indonesia
+                    yang fokus pada kualitas seni vector dan identitas visual.
+                </p>
+            </div>
+
+            <!-- Navigasi -->
+            <div class="col-6 col-lg-3">
+                <h5 class="footer-brand mb-3">
+                    Navigasi
+                </h5>
+
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#hero" class="footer-link">Home</a></li>
+                    <li class="mb-2"><a href="#layanan" class="footer-link">Layanan</a></li>
+                    <li class="mb-2"><a href="#harga" class="footer-link">Harga</a></li>
+                    <li class="mb-2"><a href="#portfolio" class="footer-link">Portfolio</a></li>
+                    <li class="mb-2"><a href="#faq" class="footer-link">FAQ</a></li>
+                    <li><a href="#kontak" class="footer-link">Kontak</a></li>
+                </ul>
+            </div>
+
+            <!-- Paket -->
+            <div class="col-6 col-lg-4">
+                <h5 class="footer-brand mb-3">
+                    Paket Desain
+                </h5>
+
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" class="footer-link">Paket Basic</a></li>
+                    <li class="mb-2"><a href="#" class="footer-link">Paket Standar</a></li>
+                    <li class="mb-2"><a href="#" class="footer-link">Paket Premium</a></li>
+                    <li><a href="#" class="footer-link">Paket Custom</a></li>
+                </ul>
+            </div>
+
         </div>
-      </div>
+
+        <!-- Garis Pemisah -->
+        <hr class="my-4 text-secondary">
+
+        <!-- Bagian Bawah Footer -->
+        <div class="row align-items-center gy-3">
+
+            <div class="col-12 col-md-6 text-center text-md-start">
+                <p class="footer-copy mb-0">
+                    &copy; 2026 NJOY Commission. Seluruh hak cipta dilindungi.
+                </p>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="d-flex justify-content-center justify-content-md-end gap-3">
+
+                    <a href="#" class="footer-social d-flex align-items-center justify-content-center rounded-circle">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-social d-flex align-items-center justify-content-center rounded-circle">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+
+                    <a href="#" class="footer-social d-flex align-items-center justify-content-center rounded-circle">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href="#" class="footer-social d-flex align-items-center justify-content-center rounded-circle">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
     </div>
-  </div>
 </footer>
 
+  <!-- TOMBOL SCROLL KE ATAS -->
 
-<!-- TOMBOL SCROLL KE ATAS -->
+  <button id="scrollTopBtn" class="scroll-top-btn d-flex align-items-center justify-content-center rounded-circle"
+    aria-label="Kembali ke atas">
+    <i class="bi bi-arrow-up"></i>
+  </button>
 
-<button id="scrollTopBtn" class="scroll-top-btn d-flex align-items-center justify-content-center rounded-circle" aria-label="Kembali ke atas">
-  <i class="bi bi-arrow-up"></i>
-</button>
+  <!-- NOTIFIKASI PESAN TERKIRIM -->
+  <div class="position-fixed top-0 end-0 m-3 notifikasi" id="notif">
+    <div class="rounded p-3 shadow" style="background-color: var(--primary-color);">
+      <p class="mb-0 text-white">
+        Pesan berhasil dikirim! Kami akan segera menghubungi Anda.
+      </p>
+    </div>
+  </div>
 
-<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>

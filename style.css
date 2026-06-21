@@ -643,6 +643,16 @@ section{
 
 
 /* FORM KONTAK                                    */
+.kontak-info .kontak-icon{
+  color: var(--primary-color);
+}
+
+.card-kontak{
+  background-color: var(--light-color);
+  opacity: 0.98;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px -10px rgba(30, 41, 59, .1);
+}
 
 .kontak-form .form-label{
   font-weight: 600;
@@ -662,6 +672,7 @@ section{
 .kontak-form .form-control.is-invalid{
   border-color: #DC2626;
 }
+
 
 .form-error{
   display: block;
@@ -701,6 +712,26 @@ section{
 
 .footer-brand .brand-mark{
   color: var(--secondary-color);
+}
+
+.footer-desc{
+  color: #A9B2C3;
+  font-size: .95rem;
+  line-height: 1.6;
+}
+
+.footer-link{
+    color: #A9B2C3;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.footer-link:hover{
+    color: var(--secondary-color);
+}
+
+.footer-brand{
+    font-weight: 600;
 }
 
 .footer-copy{
@@ -752,6 +783,17 @@ section{
   background-color: var(--secondary-color);
 }
 
+.notifikasi{
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.5s ease;
+    z-index: 9999;
+}
+
+.notifikasi.show{
+    opacity: 1;
+    transform: translateX(0);
+}
 
 /* RESPONSIVE OVERRIDES                           */
 
