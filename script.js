@@ -66,10 +66,10 @@ function validateEmail() {
 // VALIDASI LAYANAN
 function validateLayanan() {
     const layananError = document.getElementById("layananError");
-    const layanan = layananInput.value.trim();
+    const layanan = layananInput.value;
 
     if (layanan === "") {
-        layananError.textContent = "Silakan isi layanan yang diminati";
+        layananError.textContent = "Silakan pilih layanan yang diminati";
         return false;
     }
 
@@ -155,4 +155,3 @@ form.addEventListener("submit", function(e) {
     }
 
 });
-
