@@ -23,7 +23,6 @@ body{
   color: var(--dark-color);
   background-color: var(--light-color);
   font-size: var(--fs-body);
-  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4{
@@ -37,7 +36,6 @@ a{
   color: var(--primary-color);
 }
 
-/* Offset scroll biarr konten gx ketutup navbar fixed-top pas klik anchor link */
 section{
   scroll-margin-top: 90px;
 }
@@ -79,7 +77,7 @@ section{
   color: var(--primary-color);
 }
 
-/* Garis bawah animasi saat hover */
+/* Garis bawah animasi pas hover yang ada di navbar */
 .navbar-nav .nav-link::after{
   content: "";
   position: absolute;
@@ -137,8 +135,8 @@ section{
 }
 
 
-/* HERO SECTION */
-/* ---- Animasi fade-in saat halaman dibuka ---- */
+/* BAGIAN HERO SECTION */
+
 @keyframes fadeSlideUp{
   from{ opacity: 0; transform: translateY(30px); }
   to{ opacity: 1; transform: translateY(0); }
@@ -224,7 +222,7 @@ section{
 }
 
 
-/* SECTION HEADER (bsia di pke lagi di semua section)     */
+/* SECTION HEADER */
 
 .section-eyebrow{
   display: inline-block;
@@ -255,13 +253,12 @@ section{
 }
 
 
-/* ICON BOX — dipakai bersama oleh Layanan,        */
+/* ICON BOX */
 
 .icon-box{
   width: 56px;
   height: 56px;
   font-size: 1.4rem;
-  flex-shrink: 0;
 }
 
 .icon-box-primary{
@@ -350,21 +347,20 @@ section{
   font-size: 2rem;
   font-weight: 800;
   color: var(--primary-color);
-  opacity: .35;
+  
 }
 
 .proses-title{
-  font-size: 1.15rem;
-  font-weight: 700;
+  font-size: 1rem;
+  
 }
 
 .proses-desc{
   color: var(--muted-text);
-  line-height: 1.6;
 }
 
 
-/* PORTFOLIO — MARQUEE ANIMATION                  */
+/* PORTFOLIO dDENGAN MARQUEE ANIMASI                  */
 
 .portfolio-section{
   background-color: var(--primary-soft);
@@ -541,16 +537,6 @@ section{
   color: var(--primary-color);
 }
 
-.pricing-price span{
-  font-size: .95rem;
-  font-weight: 500;
-  color: var(--muted-text);
-}
-
-.pricing-list{
-  list-style: none;
-}
-
 .pricing-list li i{
   color: var(--secondary-color);
   margin-top: .15rem;
@@ -609,7 +595,7 @@ section{
 }
 
 
-/* FAQ ACCORDION                                  */
+/* FAQ                                  */
 
 .faq-item{
   border: none;
@@ -720,10 +706,7 @@ section{
 .footer-brand{
   font-size: 1.25rem;
   color: var(--light-color);
-}
-
-.footer-brand .brand-mark{
-  color: var(--secondary-color);
+  font-weight: 600;
 }
 
 .footer-desc{
@@ -734,16 +717,10 @@ section{
 
 .footer-link{
     color: #A9B2C3;
-    text-decoration: none;
-    transition: color .2s ease;
 }
 
 .footer-link:hover{
     color: var(--secondary-color);
-}
-
-.footer-brand{
-    font-weight: 600;
 }
 
 .footer-copy{
